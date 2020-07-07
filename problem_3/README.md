@@ -31,8 +31,10 @@
 	+ It contains 2 boxes : 
 		+ Add Textbox: To add a textbox to insert the URL to monitor.			
 		+ Remove Texbox: Remove a textbox where monitoring is no longer needed.
-	+ While entering URL, use http or https. It will fail without them.	
-		_Note: Currently it only monitors that responds with only 200 status codes._
+	+ While entering URL, use http or https. It will fail without them.
+		
+	_Note: Currently it only monitors that responds with only 200 status codes._
+	
 	+ Once entered, click on Select
 	+ It will give the status of the website, if it is up or down.
 
