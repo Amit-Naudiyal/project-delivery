@@ -15,6 +15,7 @@ def lambda_handler(event, context):
         newFileName=extension[0]+'-'+datetime.now().strftime("%Y%m%d-%H%M%S")
         newPath='final-file'+'/'+newFileName
         #move to new folder by copying and deleting it
+        #Change the S3 bucket name from iag-project2 to your own bucket.
         s3.Object('iag-project2',newPath).copy_from(CopySource='iag-project2'+'/'+sourceKey)
         s3.Object('iag-project2', sourceKey).delete()
     #remove file without pdf extension
