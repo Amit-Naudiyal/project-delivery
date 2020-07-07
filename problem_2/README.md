@@ -13,7 +13,7 @@ Instructions:
 + Instructions to follow:
 
 	+ Create an S3 bucket with any unique name and create one folder named: final-file inside it. Keep permissions defaut (no public).	
-	+ Add the script to Lambda function. Tested with version 3.6
+	+ Add the script to Lambda function. Tested with Python version 3.6
 	+ Replace the string 'iag-project2' with your S3 bucket name created in 1st step.
 	+ Ensure to use a Lambda role that have full permissions on S3 and Cloudwatch. These can be restricted in case required.
 	+ Create an Event on this S3 bucket for 'Put' operation which will invoke a 'Lambda function'. Choose above Lambda that was created.
