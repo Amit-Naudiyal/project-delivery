@@ -35,4 +35,4 @@ Instructions:
 
 	+ Once executed, it will look like:
 
-	   ![PipelineExecution](/pic/pipeline_run.png)
+	   ![PipelineExecution](/problem_1/pic/pipeline_run.png)
