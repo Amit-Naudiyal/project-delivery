@@ -8,20 +8,20 @@ Instructions:
 
 	+ Clone this repository and go to problem_1 directory.
 	+ Ensure you have docker-compose installed in your local system or on the machine where you are going to run Jenkins
-```	
-		$ docker-compose up 
-```
+		```
+		$ docker-compose up
+		```
 	+ This will start a jenkins container via bridge network, on http://machine-ip:8085
 	+ Once started it will give one time password like:
-	
-```	
+
+		```
         jenkins_1  | Jenkins initial setup is required. An admin user has been created and a password generated.
         jenkins_1  | Please use the following password to proceed to installation:
         jenkins_1  | 
         jenkins_1  | 32326792872345f7bad6a6d19afbf055
         jenkins_1  | 
         jenkins_1  | This may also be found at: /var/jenkins_home/secrets/initialAdminPassword	
-```	
+		```	
 	+ Access Jenkins on http://localhost:8085 (if setup on local machine) with above password. Skip other user setup.
 
 + Setup of pipeline
