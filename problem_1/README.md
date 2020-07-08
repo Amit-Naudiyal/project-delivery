@@ -11,8 +11,9 @@ Instructions:
 ```	
 		$ docker-compose up 
 ```
-		+ This will start a jenkins container via bridge network, on http://machine-ip:8085
+	+ This will start a jenkins container via bridge network, on http://machine-ip:8085
 	+ Once started it will give one time password like:
+	
 ```	
         jenkins_1  | Jenkins initial setup is required. An admin user has been created and a password generated.
         jenkins_1  | Please use the following password to proceed to installation:
